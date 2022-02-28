@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111827;
+  color: white;
+  font-size: 18px;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  padding: 20px 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  user-select: none;
+}
+
+h1 {
+  font-size: 29px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #054beb;
+
+  /* color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px, #054beb 0px 0px 10px,
+    #054beb 0px 0px 15px; */
+}
+
+.project-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 10px 20px;
+  padding: 100px 0;
+}
+
+.project {
+  padding: 8px 10px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  border-radius: 4px;
+}
+
+.project-img {
+  width: 280px;
+  height: 214.5px;
+  background-color: #c5b6ff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-name {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-category {
+  justify-self: flex-end;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9b9d9e;
+}
