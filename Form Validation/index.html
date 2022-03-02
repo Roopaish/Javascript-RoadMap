@@ -16,36 +16,43 @@
     Create Your <br />Account
   </h1>
 
-  <form action="">
+  <form action="" id="form">
     <p class="input-field">
       <label for="name">Full name</label>
-      <input type="text" name="name" id="name" required>
+      <input type="text" name="name" id="name" autocomplete="off" required>
     </p>
+    <span class="error"></span>
+
     <p class="input-field">
       <label for="name">Email</label>
-      <input type="text" name="email" id="email" required>
+      <input type="text" name="email" id="email" autocomplete="off" required>
     </p>
+    <span class="error"></span>
+
     <p class="input-field">
       <label for="name">Password</label>
       <input type="password" name="password" id="password" required>
     </p>
 
     <p class="chips">
-      <span class="chip">
+      <span class="chip password-validator" data-content="❌">
+        at least 8 character long
+      </span>
+      <span class="chip password-validator" data-content="❌">
         1 uppercase letter
       </span>
-      <span class="chip">
+      <span class="chip password-validator" data-content="❌">
         1 lowercase letter
       </span>
-      <span class="chip">
+      <span class="chip password-validator" data-content="❌">
         1 special character
       </span>
-      <span class="chip">
+      <span class="chip password-validator" data-content="❌">
         1 number
       </span>
     </p>
 
-    <button>Register</button>
+    <button id="register">Register</button>
   </form>
 </body>
 

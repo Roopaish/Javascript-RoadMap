@@ -3,6 +3,7 @@ h1 {
 }
 
 .input-field {
+  position: relative;
   padding: 10px 20px;
   margin: 20px 0;
   /* border: 1px solid #abafc1; */
@@ -20,6 +21,7 @@ label {
 }
 
 input {
+  padding-top: 2px;
   font-size: 16px;
   color: white;
   width: 100%;
@@ -27,6 +29,22 @@ input {
   background-color: transparent;
   outline: none;
   border: none;
+}
+
+.error {
+  font-size: 12px;
+  color: #f03a17;
+  height: 0;
+  opacity: 0;
+}
+
+.error.show {
+  padding-left: 20px;
+  position: relative;
+  bottom: 12px;
+  transition: all 0.2s ease-in-out;
+  height: max-content;
+  opacity: 1;
 }
 
 button {
@@ -66,7 +84,7 @@ button:hover {
 }
 
 .chip::before {
-  content: "❌"; /* ✔ */
+  content: attr(data-content);
   margin-right: 5px;
   color: #056c1b;
 }
