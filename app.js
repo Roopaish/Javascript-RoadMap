@@ -9,7 +9,7 @@ const projects = [
   },
   {
     mode: "easy",
-    title: "Light/Dark Theme Toggle",
+    title: "Theme Toggle",
     image: "",
   },
   {

@@ -1,0 +1,20 @@
+body.dark {
+  --bg: #111827;
+  --text: white;
+}
+
+body {
+  --text: #111827;
+  --bg: white;
+}
+
+body {
+  transition: color 0.2s ease-in-out;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+button{
+  background-color: var(--bg);
+  color: var(--text);
+}
