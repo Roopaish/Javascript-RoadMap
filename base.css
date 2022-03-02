@@ -16,3 +16,22 @@ body {
   max-width: 1200px;
   user-select: none;
 }
+
+button,
+input {
+  color: white;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 32px;
+}

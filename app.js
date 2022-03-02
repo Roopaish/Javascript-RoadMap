@@ -198,7 +198,7 @@ projects.forEach((project) => {
     currentElement = main[2];
   }
   currentElement.innerHTML += `
-    <div class="project">
+    <a href="/Javascript-RoadMap/${project.title}"><div class="project">
       <figure class="project-img">
         <img src="${
           project.image == ""
@@ -209,5 +209,6 @@ projects.forEach((project) => {
       <h4 class="project-name">${project.title}</h4>
       <p class="project-category">${project.mode.toUpperCase()}</p>
     </div>
+    </a>
 `;
 });
