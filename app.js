@@ -171,7 +171,7 @@ projects.forEach((project) => {
         <img src="${
           project.image == ""
             ? "http://media.indiedb.com/images/games/1/43/42826/COMING_SOON.jpg"
-            : "/img/" + project.image
+            : "./img/" + project.image
         }" alt="">
       </figure>
       <h4 class="project-name">${project.title}</h4>
