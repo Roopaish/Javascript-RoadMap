@@ -173,39 +173,41 @@ Indexes
 
 1. Easy
 
-    - Form Validation
-    - Light/Dark Theme Toggle
-    - Google Maps Clone
-    - Analog Clock
-    - Impossible To Click Button
-    - Simple Tabs
-    - Rock Paper Scissors Game
-    - Text To Speech
-    - Eye Tracking Program
-    - Expandable Content
-    - Modal
+   - [Form Validation](https://roopaish.github.io/Javascript-RoadMap/Form%20Validation/)
+     <img src='img/form-validation.png' >
+   - [Light/Dark Theme Toggle](https://roopaish.github.io/Javascript-RoadMap/Theme%20Toggle/)
+     <img src='img/theme-toggle.png' >
+   - Google Maps Clone
+   - Analog Clock
+   - Impossible To Click Button
+   - Simple Tabs
+   - Rock Paper Scissors Game
+   - Text To Speech
+   - Eye Tracking Program
+   - Expandable Content
+   - Modal
 
 2. Medium
 
-    - Password Strength Tester
-    - Password Generator
-    - Quiz App
-    - Card Game
-    - Snake Game
-    - AI Face Detection
-    - AI Face Recognition
-    - Thanos Snap Effect
-    - Sortable Drag And Drop
-    - Speed Typing Game
-    - Tic Tac Toe
-    - Browser Based Guitar Amp
-    - Text Adventure Game
+   - Password Strength Tester
+   - Password Generator
+   - Quiz App
+   - Card Game
+   - Snake Game
+   - AI Face Detection
+   - AI Face Recognition
+   - Thanos Snap Effect
+   - Sortable Drag And Drop
+   - Speed Typing Game
+   - Tic Tac Toe
+   - Browser Based Guitar Amp
+   - Text Adventure Game
 
 3. Hard
 
-    - Custom Select Dropdown
-    - Calculator
-    - Card Matching Game
-    - Advanced Todo List
-    - Mars Weather App
-    - Battleship Clone
+   - Custom Select Dropdown
+   - Calculator
+   - Card Matching Game
+   - Advanced Todo List
+   - Mars Weather App
+   - Battleship Clone
