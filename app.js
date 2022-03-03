@@ -10,7 +10,7 @@ const projects = [
   {
     mode: "easy",
     title: "Theme Toggle",
-    image: "",
+    image: "theme-toggle.png",
   },
   {
     mode: "easy",

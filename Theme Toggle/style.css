@@ -1,11 +1,19 @@
 body.dark {
   --bg: #111827;
   --text: white;
+  --btn: rgb(144, 0, 53);
+  --circle: rgb(255, 253, 242);
+  --circle-border: #dee2c6;
+  --graphics: var(--bg);
 }
 
 body {
   --text: #111827;
   --bg: white;
+  --btn: rgb(208, 255, 208);
+  --circle: #f5ec59;
+  --circle-border: #e7c65c;
+  --graphics: #c6e9ff;
 }
 
 body {
@@ -14,7 +22,165 @@ body {
   color: var(--text);
 }
 
-button{
+button {
   background-color: var(--bg);
   color: var(--text);
+}
+
+.radio-btn {
+  margin: 20px 0;
+  cursor: pointer;
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  background-color: var(--btn);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background-color: var(--circle);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 5px solid var(--circle-border);
+  transition: all 0.5s ease-in-out;
+}
+
+.dark .circle {
+  left: 210px; /* 300px-10px-80px */
+}
+
+.graphics {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: var(--graphics);
+  border-radius: 100px;
+}
+
+.clouds,
+.stars {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.cloud {
+  background-color: aliceblue;
+  width: 25px;
+  height: 5px;
+  border-radius: 50px;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.cloud1 {
+  top: 20px;
+  left: 60px;
+  width: 100px;
+}
+
+.cloud2 {
+  top: 20px;
+  left: 200px;
+}
+
+.cloud3 {
+  top: 40px;
+  height: 2px;
+  width: 150px;
+  left: 60px;
+  transition-delay: 0.15s;
+}
+
+.cloud4 {
+  left: 200px;
+  transition-delay: 0.1s;
+}
+
+.dark .cloud4 {
+  left: 0;
+}
+
+.dark .cloud2 {
+  left: 0px;
+}
+
+.dark .cloud3 {
+  left: 0px;
+}
+
+.star {
+  border-radius: 1px;
+  background-color: aliceblue;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  box-shadow: 1px 1px 10px 1px whitesmoke;
+  opacity: 0;
+  animation: glow 1s cubic-bezier(0.075, 0.82, 0.165, 1) alternate infinite;
+}
+
+.dark .star {
+  opacity: 1;
+  transition: all 2s ease-in-out;
+}
+
+.star1 {
+  top: -15px;
+  left: 120px;
+  animation-delay: 0.2s;
+}
+
+.star2 {
+  top: 20px;
+  left: 50px;
+}
+
+.star3 {
+  top: 0px;
+  left: 55px;
+  animation-delay: 0.1s;
+}
+
+.star4 {
+  top: 10px;
+  left: 100px;
+  animation-delay: 0.15s;
+}
+
+.star5 {
+  top: 9px;
+  left: 160px;
+  animation-delay: 0.4s;
+}
+
+.star6 {
+  top: -10px;
+  left: 82px;
+  animation-delay: 0.45s;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 1px 1px 10px 1px whitesmoke;
+  }
+  50% {
+    box-shadow: 1px 1px 10px 2px whitesmoke;
+  }
+  100% {
+    box-shadow: 1px 1px 10px 1px whitesmoke;
+  }
 }
